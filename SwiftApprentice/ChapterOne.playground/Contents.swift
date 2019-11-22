@@ -33,5 +33,16 @@ print (age)
 age = 30
 print (age)
 
-//3 
+//3 consider the following code:
+let x: Int = 46
+let y: Int = 10
 
+// Work out what answer equals when you add the following lines of code:
+//1
+let anwser1 = x * 100 + y
+//2
+let anwser2 = x * 100 + y * 100
+//3
+let anwser3 = x * 100 + y / 10
+
+print (anwser1 + anwser2 + anwser3)
